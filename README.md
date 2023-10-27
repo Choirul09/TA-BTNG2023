@@ -1,1 +1,162 @@
-# TA-BTNG2023
+<!DOCTYPE html>
+<html lang="en">
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="assets/css/tugasakhir.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg shadow-sm p-3 fixed-top bg-dark">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-3 text-white" href="#">My <span class="text-primary">Portofiolio</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-white fs-5" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fs-5 ms-0 ms-lg-3" href="#datadiri">Data Diri</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fs-5 ms-0 ms-lg-3" href="#riwayatpendidikan">Riwayat Pendidikan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fs-5 ms-0 ms-lg-3" href="#hobi">Hobi</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  <div class="bg-light">
+    <!-- Home -->
+    <section id="home">
+      <div class="container">
+        <div class="d-flex flex-column vh-100 justify-content-center">
+          <h3 class="fw-bold text-white">Hi, everyone</h3>
+          <h1 class="text-white">I'm <span class="text-white"> Choirul Andi</span></h1>
+          <h4 class="text-white">Frontend Developer</h4>
+          <p class="text-light">
+            Frontend Developer are responsiable for implementing designs and concepts on the we. <br />
+            This implementation can be achieved using several languages. <br />
+            This progrmaing languages used Frontend Developer are HTML, CSS, JS.
+          </p>
+          <div class="medsos">
+            <a href="https://instagram.com/choirulandi_?igshid=NGVhN2U2NjQ0Yg=="><i class="fa-brands fa-instagram fs-1 p-3"></i></a>
+            <a href="https://www.tiktok.com/@choco_rul?_t=8gk8FwU0cbK&_r=1"><i class="fa-brands fa-tiktok fs-1"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Data Diri -->
+    <section>
+      <div class="container" id="datadiri">
+        <div class="title text-center mb-4 my-5 pb-5 py-5">
+          <h1 class="fw-bold text-white">Data Diri</h1>
+        </div>
+        <div class="row gy-3">
+          <div class="col-12 col-md-6 w-70">
+            <img src="assets/img/billiard.jpg" alt="img-fluid " width="500" />
+          </div>
+          <div class="col-12 col-md-6 text-white fs-3">
+            <p style="text-align: justify">
+              Nama : Choirul Andi Setiawan <br />
+              NIM : A11.2023.15385 <br />
+              Program Studi : Teknik Informatika <br />
+              Faklutas : Fakultas Ilmu Komputer <br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Riwayat Pendidikan -->
+    <section id="riwayatpendidikan">
+      <div class="container">
+        <div class="title text-center mb-4 my-5">
+          <h1 class="fw-bold text-white pb-5 py-5">Riwayat Pendidikan</h1>
+        </div>
+        <div class="row gy-4 justify-content-center">
+          <div class="col-12 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="assets/img/sd.jpg" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold">SD NEGERI BUGANGAN 03</h5>
+                <p class="card-text">2011 - 2017</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="assets/img/Smpn_3_smrg.jpg" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold">SMP NEGERI 3 SEMARANG</h5>
+                <p class="card-text">2017 - 2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3">
+            <div class="card">
+              <img src="assets/img/sma.jpg" class="card-img-top" />
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold">SMA NEGERI 11 SEMARANG</h5>
+                <p class="card-text">2020 - 2023</p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hobi -->
+    <section id="hobi" class="bg-dark py-5">
+      <div class="text-white text-center">
+        <h1>Hobi</h1>
+      </div>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <center>
+          <div class="carousel-item active w-100 ">
+            <img src="assets/img/billiard.jpg" class="d-block w-25 " alt="...">
+          </div>
+          <div class="carousel-item w-100">
+            <img src="assets/img/futsal.jpg" class="d-block w-25" alt="...">
+          </div>
+          <div class="carousel-item w-100">
+            <img src="assets/img/sepakbola.jpg" class="d-block w-25" alt="...">
+          </div>
+        </center>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+  </div>
+
+  <!--Footer-->
+  <footer class="p-3 bg-light text-center text-white">
+    Copyright 2023 Choirul Andi. All Rights Reserved
+  </footer>
+    
+    <!--JS Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
